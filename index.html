@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-wrapper">
+        <div class="converter">
+          <h2>แปลงเงิน จากสกุลเงินอื่น เป็นเงินไทย</h2>
+          <p>ค่าเงิน</p>
+          <input type="number" id="amount" placeholder="จำนวน" />
+          <p>เลือกค่าเงิน (from)</p>
+          <select id="currency-select">
+          </select>
+          <button id="convert-btn">GO</button>
+          <div class="result">ผลลัพธ์ (THB.): <span id="result"></span></div>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>
